@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@keyframes gradient
+
+ {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+
+.time-card {
+	
+	background-color: white;
+	border-radius: 10px;
+	box-shadow:0px 0px   50px 0px  rgb(246, 248, 246);
+	padding: 20px;
+	margin: 20px auto;
+	width: 600px;
+	margin-top: 200px ;
+
+}
+.time-card img {
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.time-card h1, .card p {
+	text-align: center;
+}
+.time-card h1 {
+	margin-top: 10px;
+	font-size: 24px;
+}
+.time-card p {
+	margin-left: 180px;
+	font-size: 30px;
+	color: #999;
+	
+}
+.time-card input {
+	margin-top: 5px;
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+
+.clock {
+	background: #333333;
+	width: 200px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+  }
+  
+  .clock-time,
+  .clock-ampm {
+	font-family: "Concert One", cursive;
+	font-size: 30px;
+	color: #eeeeee;
+  }
+  
+  .clock-time {
+	font-size: 48px;
+  }
+
+
+
+  body{
+    margin: 0%;
+    padding: 0%;
+    background: black;
+}
+.container{
+    font-family: "Arial", Helvetica, sans-serif;
+    padding-left: 500px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+	padding-top: 15%;
+    right: 50%; 
+     transform: translate(50%, -50%);
+    font-size: 50px;
+    white-space: nowrap;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+h2 {
+	
+    
+    color: #33323283;
+    
+  }
+h1 {
+	font-family: "Arial", Helvetica, sans-serif;
+    
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+  padding-top: px;
+    right: 50%; 
+     transform: translate(50%, -50%);
+    font-size: 50px;
+    white-space: nowrap;
+  }
+
+  input{
+	border-radius: 10px;
+width: 200px;
+padding-bottom: 15px;
+margin-left: 170px;
+
+  }
+.button {
+background-color: #0f0f0f59;
+margin-left: 170px;
+
+color: white;
+  }
